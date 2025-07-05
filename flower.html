@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Yennifer</title>
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="icon" href="img/Fondo.jpg" type="image/x-icon" />
+  <style>
+    .rotate-warning {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: black;
+      color: white;
+      font-size: 1.5rem;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      z-index: 9999;
+      padding: 20px;
+    }
+
+    @media screen and (orientation: portrait) {
+      body > *:not(.rotate-warning) {
+        display: none !important;
+      }
+      .rotate-warning {
+        display: flex !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="rotate-warning">
+    Gira tu teléfono a modo horizontal para leer tu mensajito 💌
+  </div>
+
+  <audio src="sound/spt1.mp3" autoplay loop></audio>
+
+  <main>
+    <h1 class="titulo">
+      Hola mi amorcito bella, preciosa, hermosa, mi vida, mi cielo, mi tesoro, mi todo 💗.Bueno, primero comenzar agradeciéndote por todo este tiempo que llevamos juntos, mi amorcito 💗. De verdad que te has vuelto en alguien muy pero muy importante en mi vida. El tan solo verte o hablar contigo me alegra el día completamente. No quiero a otra que no seas tú mi amor 💗.
+      Siento que contigo puedo ser yo mismo y no fingir ser una persona que no soy. Contigo tengo una conexión que jamás tuve con nadie. Quiero estar contigo si me lo permites por siempre mi amorcito 💗, me has demostrado muchas veces que me quieres mucho, gracias por enseñarme lo que es una relación sana y bonita, gracias por estar ahi cuando te necesito y no dudes que tambien siempre estare para ti mi amor 💗, eres con la primera chica que estoy y quiero que seas la ultima, quiero que seas tu por siempre mi amor, nunca me imagine que ese dia 29 de marzo conoceria al amor de mi vida 💗, sin buscarlo de la nada llegaste a mi vida mi princesa 💗 y ahora estoy enamorado perdidamente de ti, yo creo que siempre fui loco pero ahora estoy mas loco por ti 💗, jajajajaj pero bueno como siempre te digo las palabras nunca son suficientes para demostrarte todo lo que siento por ti mi amorcito 💗, te quiero mucho mucho mucho mucho al infinito y mas alla como dice Buzz Lightyear jajajajaj y decirte nuevamente que eres el amor de todas mis vidas mi amor 💗
+    </h1>
+  </main>
+
+  <script src="anim.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
